@@ -75,6 +75,7 @@
 
 body{
     background-color: #ECECEC;
+    font-family: 'Montserrat', sans-serif;
 }
 .container-fluid{
     width: 100%;
@@ -86,3 +87,4 @@ body{
 
 
 @import "blocks/header";
+@import "blocks/fonts";
