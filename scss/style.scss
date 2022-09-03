@@ -85,6 +85,11 @@ body{
     margin: 0 auto;
 }
 
-
+.main{
+  margin-top: 125px;
+}
 @import "blocks/header";
+@import "blocks/pre-header";
+@import "blocks/heading";
+@import "blocks/achievements";
 @import "blocks/fonts";

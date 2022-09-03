@@ -1,0 +1,76 @@
+.section__heading {
+    position: relative;
+    height: 500px;
+}
+.heading__content {
+    padding-top: 100px;
+}
+.heading__title {
+    h1{
+        font-weight: 800;
+        font-size: 48px;
+        line-height: 140%;
+        color: #363333;
+        span{
+            color: #F25552;
+        }
+    }
+    
+}
+.heading__buttons {
+    display: flex;
+    margin-top: 32px;
+}
+.button__casting {
+    margin-right: 40px;
+    
+    a{
+        background: #F25552;
+        border-radius: 16px;
+        padding: 16px 32px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 140%;
+        color: #FFFFFF;
+        transition: all 0.5s;
+        &:hover{
+            box-shadow: 0px 0px 15px 0px black;
+        }
+    }
+}
+.button__lesson {
+    a{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 140%;
+        padding: 9px;
+        color: #363333;
+        
+        
+    }
+    border-bottom: 2px solid #F25552;
+    transition: all 0.5s;
+    &:hover{
+        opacity: 0.7;
+    }
+}
+.background__img-micro {
+    position: absolute;
+    right: 0;
+    z-index: 2;
+    top: 50px;
+    img{
+        width: 550px;
+        height: 350px;
+    }
+}
+.background__image-red-rectangle {
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    top: 0;
+    img{
+        height: 450px;
+        width: 320px;
+    }
+}

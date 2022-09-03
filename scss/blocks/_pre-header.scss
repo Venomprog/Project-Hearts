@@ -1,0 +1,39 @@
+.section__pre-header {
+    position: fixed;
+    top: 0;
+    padding-top: 10px;
+    font-size: 14px;
+    font-weight: 300;
+    z-index: 30000;
+    background-color: #ECECEC;
+    .pre-header__content{
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid black;
+        padding-bottom: 2px;
+        z-index: 30000;
+    }
+}
+
+.pre-header__addres {
+    
+    a{
+        display: block;
+        color: black;
+    }
+    .addres-mrg-left{
+        margin-left: 52px;
+        margin-top: 5px;
+    }
+}
+.pre-header__links_list {
+    display: flex;
+}
+.list__item {
+    margin-right: 20px;
+}
+.pre-header__phone {
+    a{
+        color: black;
+    }
+}

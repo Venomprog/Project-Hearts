@@ -1,0 +1,33 @@
+.section__achievements {
+    padding: 50px;
+}
+.container-fluid {
+}
+.achievements__content {
+}
+.container {
+}
+.achievments__list {
+    display: flex;
+    justify-content: space-between;
+    
+    .list__item {
+        text-align: center;
+        background-image: url(/images/Ellipse.png);
+        background-repeat: no-repeat;
+        background-size: 200px;
+        height: 200px;
+        width: 200px;
+        p{
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 29px;
+            text-align: center;
+            color: #F25552;
+            padding: 45px 20px;
+        }
+    }
+    @media (max-width: 768px) {
+        flex-wrap: wrap;
+    }
+}
